@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;;
+}
+
+/* Light Mode Color Palette
+Primary (Deep Blue): #1E3A8A – Professional and trustworthy
+Accent (Bright Orange): #F97316 – Highlights important elements
+Background (White): #F9FAFB – Clean and minimal
+Text (Charcoal Black): #111827 – High contrast for readability
+Secondary (Light Gray): #E5E7EB – For subtle dividers and sections
+
+Dark Mode Color Palette
+Primary (Bright Blue): #3B82F6 – Stands out against dark backgrounds
+Accent (Vivid Orange): #FB923C – Keeps energy in the design
+Background (Dark Gray): #1F2937 – Easier on the eyes than pure black
+Text (Soft White): #F3F4F6 – Ensures readability without harsh contrast
+Secondary (Darker Gray): #374151 – For depth and UI elements */
