@@ -4,8 +4,98 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Header-Tab {
+    display: flex;
+    background-color: #1F2937;
+    color: #f3f4f6;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .25rem 1rem; 
+}
+
+.Left-side {
+    /* color: #f3f4f6; */
+    margin-right: auto;
+    margin-top: .75rem;
+}
+
+.Right-side {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.Header-button {
+    background-color: #1F2937;
+    color: #f3f4f6;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 5rem;
+    height: 1.5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: #1F2937 solid;
+}
+
+.Header-button:hover {
+    background-color: #374151;
+    transition-duration: 0.2s;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.Body-information {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Body-list {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.Footer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f3f4f6;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 2rem;
+    padding: .5rem 1rem; 
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.Footer-left {
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.Footer-right {
+    margin-right: 1rem;
+}
+
+
 
 /* Light Mode Color Palette
 Primary (Deep Blue): #1E3A8A – Professional and trustworthy
